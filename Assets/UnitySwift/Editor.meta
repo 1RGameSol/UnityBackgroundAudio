@@ -1,9 +1,20 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/UnitySwift/Editor.meta
 guid: 391a19e6f711b498fa514c157fed3a7a
 folderAsset: yes
 timeCreated: 1467687641
 licenseType: Pro
+========
+guid: acd8735a517c64b4990979a8f1871491
+folderAsset: yes
+>>>>>>>> Stashed changes:Assets/ExternalDependencyManager/Editor.meta
+=======
+guid: 391a19e6f711b498fa514c157fed3a7a
+folderAsset: yes
+>>>>>>> Stashed changes
 DefaultImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
