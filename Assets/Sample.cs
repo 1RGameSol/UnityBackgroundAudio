@@ -1,7 +1,9 @@
 ﻿using System;
 using System.IO;
+
 using BackgroundAudio;
 using BackgroundAudio.Base;
+
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
@@ -27,14 +29,14 @@ public class Sample : MonoBehaviour
 
     private void GetAudioFileURI(Action<string> callback)
     {
-        #if UNITY_IOS // IOS can read from StreamingAssets
+#if UNITY_IOS // IOS can read from StreamingAssets
 
         var filePath = Path.Combine(Application.streamingAssetsPath, "SampleAudio.mp3");
         callback?.Invoke(filePath);
         return;
 
-        #endif
-        #if UNITY_ANDROID // Android can't
+#endif
+#if UNITY_ANDROID // Android can't
         var persistantPath = Path.Combine(Application.persistentDataPath, "SampleAudio.mp3");
         var filePath = Path.Combine(Application.streamingAssetsPath, "SampleAudio.mp3");
         Debug.Log($"PersistantPath: {persistantPath}");
@@ -50,7 +52,7 @@ public class Sample : MonoBehaviour
         var req = new UnityWebRequest(filePath, UnityWebRequest.kHttpVerbGET, new DownloadHandlerFile(persistantPath), null);
         var asyncOp = req.SendWebRequest();
         asyncOp.completed += op => { callback?.Invoke(persistantPath); };
-        #endif
+#endif
     }
 
     private void Update()

@@ -1,5 +1,5 @@
 <dependencies>
-    <androidPackages>
-        <androidPackage spec="com.android.support:support-compat:+"/>
-    </androidPackages>
+  <androidPackages>
+    <androidPackage spec="androidx.core:core:1.0.0"/>
+  </androidPackages>
 </dependencies>
