@@ -1,4 +1,4 @@
-package com.Faizan.Github.BackgroundAudio;
+package com.oneRGames.Github.BackgroundMusic;
 
 import android.media.MediaPlayer;
 import java.util.Timer;

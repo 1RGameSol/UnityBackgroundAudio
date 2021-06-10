@@ -1,4 +1,4 @@
-package com.Faizan.Github.BackgroundAudio;
+package com.oneRGames.Github.BackgroundMusic;
 
 import android.app.Application;
 import android.app.NotificationChannel;

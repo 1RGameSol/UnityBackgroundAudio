@@ -1,4 +1,4 @@
-package com.Faizan.Github.BackgroundAudio;
+package com.oneRGames.Github.BackgroundMusic;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -18,10 +18,10 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Objects;
 
-import com.Faizan.Github.BackgroundAudio.MediaWrapper;
-import com.Faizan.Github.BackgroundAudio.BackgroundAudioServiceCallback;
+import com.oneRGames.Github.BackgroundMusic.MediaWrapper;
+import com.oneRGames.Github.BackgroundMusic.BackgroundAudioServiceCallback;
 
-import static com.Faizan.Github.BackgroundAudio.App.NOTIF_CHANNEL_ID;
+import static com.oneRGames.Github.BackgroundMusic.App.NOTIF_CHANNEL_ID;
 
 public class BackgroundAudioService extends Service {
 
