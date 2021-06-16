@@ -1,7 +1,10 @@
 using System;
 
+using UnityEngine;
+
 namespace BackgroundAudio.Base
 {
+    [Serializable]
     public abstract class BackgroundAudioImplementation
     {
         public abstract event Action OnAudioStarted, OnAudioStopped, OnAudioPaused, OnAudioResumed;
@@ -16,6 +19,7 @@ namespace BackgroundAudio.Base
 
         protected abstract void Initialize();
         public abstract void Play(string path);
+        public virtual void Play(AudioClip clip) { }
         public abstract void Stop();
         public abstract void Pause();
         public abstract void Resume();

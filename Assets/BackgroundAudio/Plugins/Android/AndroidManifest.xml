@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:amazon="http://schemas.amazon.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
   <application android:name="com.oneRGames.Github.BackgroundMusic.App">
     <activity android:name="com.unity3d.player.UnityPlayerActivity">
       <intent-filter>
@@ -9,6 +9,6 @@
       </intent-filter>
       <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
     </activity>
-    <service android:name="com.oneRGames.Github.BackgroundMusic.BackgroundAudioService" />
+    <service android:name="com.oneRGames.Github.BackgroundMusic.BackgroundAudioService"/>
   </application>
 </manifest>

@@ -3,8 +3,8 @@
     "references": [
         "BackgroundAudioBase"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [
+        "Editor",
         "iOS"
     ],
     "excludePlatforms": [],
@@ -12,5 +12,7 @@
     "overrideReferences": true,
     "precompiledReferences": [],
     "autoReferenced": false,
-    "defineConstraints": []
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

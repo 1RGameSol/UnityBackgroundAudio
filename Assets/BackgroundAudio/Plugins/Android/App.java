@@ -12,7 +12,8 @@ public class App extends Application {
     public static final String NOTIF_CHANNEL_ID = "audioNotifChannel";
 
     @Override
-    public void onCreate() {
+    public void onCreate() 
+    {
         super.onCreate();
 
         Log.d(TAG, "onCreate() was called!");

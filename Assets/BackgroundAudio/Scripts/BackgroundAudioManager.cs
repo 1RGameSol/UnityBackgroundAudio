@@ -14,13 +14,13 @@ namespace BackgroundAudio
     {
         public static BackgroundAudioImplementation NewInstance()
         {
-            #if UNITY_EDITOR || UNITY_STANDALONE
+#if UNITY_EDITOR || UNITY_STANDALONE
             return new UnsupportedPlatformBackgroundAudio();
-            #elif UNITY_ANDROID
+#elif UNITY_ANDROID
             return new AndroidBackgroundAudio();
-            #elif UNITY_IPHONE || UNITY_IOS
+#elif UNITY_IPHONE || UNITY_IOS
             return new IOSBackgroundAudio();
-            #endif
+#endif
         }
     }
 }

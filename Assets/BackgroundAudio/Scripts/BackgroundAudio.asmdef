@@ -1,17 +1,18 @@
 {
     "name": "BackgroundAudio",
     "references": [
-        "BackgroundAudioBase",
-        "AndroidBackgroundAudioImplementation",
-        "IOSBackgroundAudioImplementation",
-        "UnsupportedPlatformBackgroundAudioImplementation"
+        "GUID:94701c46ce4454a45b6211d9975c1485",
+        "GUID:d4a8f59facb294e14976a86722205307",
+        "GUID:518e3f0c16b61422aac5e14dc9690286",
+        "GUID:d15d7dfebf77c40ae8408baac0676105"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": []
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

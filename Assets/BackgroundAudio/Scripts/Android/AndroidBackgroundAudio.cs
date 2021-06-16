@@ -2,6 +2,7 @@
 using System;
 using UnityEngine;
 using BackgroundAudio.Base;
+
 namespace BackgroundAudio.Android
 {
     public class AndroidBackgroundAudio : BackgroundAudioImplementation
