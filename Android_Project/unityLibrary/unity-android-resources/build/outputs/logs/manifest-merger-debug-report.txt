@@ -1,0 +1,31 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml:1:39-2:103
+INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml:1:39-2:103
+INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml:1:39-2:103
+INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml:1:39-2:103
+INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml:1:39-2:103
+INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml:1:39-2:103
+INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml:1:39-2:103
+	package
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml:1:108-164
+		INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml
+		INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml:2:25-50
+		INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml
+		INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml:1:49-107
+	android:versionCode
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml:2:1-24
+		INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml
+		INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml
+uses-sdk
+ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml:2:51-92
+INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml:2:51-92
+INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml:2:51-92
+	android:targetSdkVersion
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml:2:61-90
+		INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml
+		INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\unity-android-resources\AndroidManifest.xml

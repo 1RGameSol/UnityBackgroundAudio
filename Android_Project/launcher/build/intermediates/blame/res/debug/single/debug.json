@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_app_icon.png.flat",
+        "source": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\src\\main\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_banner.png.flat",
+        "source": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\src\\main\\res\\drawable-xhdpi\\app_banner.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable_ba_notification_icon.png.flat",
+        "source": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\unityLibrary\\unity-android-resources\\build\\intermediates\\packaged_res\\debug\\drawable\\ba_notification_icon.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\src\\main\\res\\mipmap-anydpi-v26\\app_icon.xml"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\layout_custom_dialog.xml.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\ahtes\\.gradle\\caches\\transforms-2\\files-2.1\\8584b354461a7859843e3ad0a89a3395\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    }
+]

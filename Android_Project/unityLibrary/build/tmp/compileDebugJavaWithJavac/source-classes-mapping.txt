@@ -1,0 +1,12 @@
+com/unity3d/player/BuildConfig.java
+ com.unity3d.player.BuildConfig
+com/unity3d/player/UnityPlayerActivity.java
+ com.unity3d.player.UnityPlayerActivity
+com/oneRGames/Github/BackgroundMusic/App.java
+ com.oneRGames.Github.BackgroundMusic.App
+com/oneRGames/Github/BackgroundMusic/BackgroundAudioService.java
+ com.oneRGames.Github.BackgroundMusic.BackgroundAudioService
+com/oneRGames/Github/BackgroundMusic/BackgroundAudioServiceCallback.java
+ com.oneRGames.Github.BackgroundMusic.BackgroundAudioServiceCallback
+com/oneRGames/Github/BackgroundMusic/MediaWrapper.java
+ com.oneRGames.Github.BackgroundMusic.MediaWrapper

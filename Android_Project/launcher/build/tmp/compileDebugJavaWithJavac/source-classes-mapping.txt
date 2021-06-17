@@ -1,0 +1,48 @@
+com/unity3d/player/R.java
+ com.unity3d.player.R
+ com.unity3d.player.R$attr
+ com.unity3d.player.R$color
+ com.unity3d.player.R$dimen
+ com.unity3d.player.R$drawable
+ com.unity3d.player.R$id
+ com.unity3d.player.R$integer
+ com.unity3d.player.R$layout
+ com.unity3d.player.R$string
+ com.unity3d.player.R$style
+ com.unity3d.player.R$styleable
+com/oneRGames/Github/BackgroundMusic/R.java
+ com.oneRGames.Github.BackgroundMusic.R
+ com.oneRGames.Github.BackgroundMusic.R$attr
+ com.oneRGames.Github.BackgroundMusic.R$color
+ com.oneRGames.Github.BackgroundMusic.R$dimen
+ com.oneRGames.Github.BackgroundMusic.R$drawable
+ com.oneRGames.Github.BackgroundMusic.R$id
+ com.oneRGames.Github.BackgroundMusic.R$integer
+ com.oneRGames.Github.BackgroundMusic.R$layout
+ com.oneRGames.Github.BackgroundMusic.R$mipmap
+ com.oneRGames.Github.BackgroundMusic.R$string
+ com.oneRGames.Github.BackgroundMusic.R$style
+ com.oneRGames.Github.BackgroundMusic.R$styleable
+androidx/annotation/experimental/R.java
+ androidx.annotation.experimental.R
+androidx/lifecycle/R.java
+ androidx.lifecycle.R
+com/oneRGames/Github/BackgroundMusic/resources/R.java
+ com.oneRGames.Github.BackgroundMusic.resources.R
+ com.oneRGames.Github.BackgroundMusic.resources.R$drawable
+androidx/core/R.java
+ androidx.core.R
+ androidx.core.R$attr
+ androidx.core.R$color
+ androidx.core.R$dimen
+ androidx.core.R$drawable
+ androidx.core.R$id
+ androidx.core.R$integer
+ androidx.core.R$layout
+ androidx.core.R$string
+ androidx.core.R$style
+ androidx.core.R$styleable
+androidx/versionedparcelable/R.java
+ androidx.versionedparcelable.R
+com/oneRGames/Github/BackgroundMusic/BuildConfig.java
+ com.oneRGames.Github.BackgroundMusic.BuildConfig

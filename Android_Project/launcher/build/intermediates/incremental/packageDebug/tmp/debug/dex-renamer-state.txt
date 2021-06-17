@@ -1,0 +1,16 @@
+#Wed Jun 16 23:16:59 PKT 2021
+path.4=classes.dex
+path.3=classes.dex
+path.2=classes.dex
+path.1=classes.dex
+path.0=classes.dex
+base.4=D\:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\transforms\\dexMerger\\debug\\4
+base.3=D\:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+base.2=D\:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+base.1=D\:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.0=D\:\\HomeWork\\Unity Projects\\RemoteWork\\Working\\UnityBackgroundAudio\\Android_Project\\launcher\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+renamed.4=classes5.dex

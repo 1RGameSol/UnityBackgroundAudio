@@ -1,0 +1,2 @@
+com/oneRGames/Github/BackgroundMusic/resources/BuildConfig.java
+ com.oneRGames.Github.BackgroundMusic.resources.BuildConfig
