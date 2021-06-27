@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad95b511-63ec-4ddd-93a7-8b96863175d6" name="Default Changelist" comment="" />
+    <list default="true" id="bbf4e5ec-4ab9-4bbe-a642-09946f28aa8a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\ahtes\.android\avd\Pixel_4_API_28.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@eb7bbf28]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -19,16 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1u2ct9LLdeKO7jjl7WTHHJaepVY" />
+  <component name="ProjectId" id="1u5Vbkjginj4bj6Xxm3bjiIOOjZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@C:\Users\ahtes\.android\avd\Pixel_4_API_28.avd" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-06-17T18:50:53.582233Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="android.sdk.path" value="E:/Android/android-sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Android_Projects/uamp-main" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager">
@@ -72,7 +83,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="launcher" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="launcher" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="Android_Project.launcher" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -149,12 +160,46 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ad95b511-63ec-4ddd-93a7-8b96863175d6" name="Default Changelist" comment="" />
-      <created>1623867338850</created>
+      <changelist id="bbf4e5ec-4ab9-4bbe-a642-09946f28aa8a" name="Default Changelist" comment="" />
+      <created>1623955514526</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1623867338850</updated>
+      <updated>1623955514526</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="583" y="180" key="#Plugins" timestamp="1624742129753">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="583" y="180" key="#Plugins/62.0.1858.1080@62.0.1858.1080" timestamp="1624742129753" />
+    <state x="445" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623955769442">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="445" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1858.1080/1920.107.1858.1080@62.0.1858.1080" timestamp="1623955769442" />
+    <state x="154" y="92" width="1674" height="896" key="AVDManager" timestamp="1623956349624">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="154" y="92" width="1674" height="896" key="AVDManager/62.0.1858.1080/1920.107.1858.1080@62.0.1858.1080" timestamp="1623956349624" />
+    <state x="771" y="294" key="FileChooserDialogImpl" timestamp="1624744696776">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="771" y="294" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1624744696776" />
+    <state width="907" height="581" key="GridCell.Tab.0.bottom" timestamp="1624798796189">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="907" height="581" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1624798796189" />
+    <state width="907" height="581" key="GridCell.Tab.0.center" timestamp="1624798796189">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="907" height="581" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1624798796189" />
+    <state width="907" height="581" key="GridCell.Tab.0.left" timestamp="1624798796189">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="907" height="581" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1624798796189" />
+    <state width="907" height="581" key="GridCell.Tab.0.right" timestamp="1624798796189">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="907" height="581" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1624798796189" />
   </component>
 </project>

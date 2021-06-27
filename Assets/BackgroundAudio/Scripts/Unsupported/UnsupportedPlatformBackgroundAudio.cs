@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections;
-
+﻿using UnityEngine;
 using BackgroundAudio.Base;
-
-using UnityEditor.PackageManager.UI;
-
-using UnityEngine;
-using UnityEngine.Networking;
+using System;
 
 namespace BackgroundAudio.UnsupportedPlatform
 {
@@ -18,15 +12,14 @@ namespace BackgroundAudio.UnsupportedPlatform
         public override event Action OnAudioPaused;
         public override event Action OnAudioResumed;
 
-        [SerializeField]
         private AudioSource audioSource;
+
         private bool isPause;
 
         protected override void Initialize()
         {
             audioSource = new GameObject().AddComponent<AudioSource>();
             audioSource.gameObject.name = "CurAudioObj";
-            //throw new PlatformNotSupportedException();
         }
 
         public override void Play(string path)
@@ -45,29 +38,36 @@ namespace BackgroundAudio.UnsupportedPlatform
 
         public override void Stop()
         {
-            throw new PlatformNotSupportedException();
+            if (audioSource)
+            {
+                if (audioSource.isPlaying) audioSource.Stop();
+            }
         }
 
         public override void Pause()
         {
             isPause = true;
-            // throw new PlatformNotSupportedException();
         }
 
         public override void Resume()
         {
             isPause = false;
-            //throw new PlatformNotSupportedException();
         }
 
         public override void Seek(float seconds)
         {
-            throw new PlatformNotSupportedException();
+            if (audioSource)
+            {
+                if (audioSource.isPlaying) audioSource.time += seconds;
+            }
         }
 
         public override void SetVolume(float volume)
         {
-            throw new PlatformNotSupportedException();
+            if (audioSource)
+            {
+                audioSource.volume = volume;
+            }
         }
 
         public override void SetLoop(bool value)
@@ -75,7 +75,6 @@ namespace BackgroundAudio.UnsupportedPlatform
             if (audioSource)
                 audioSource.loop = value;
             else Debug.LogError("No audio source in the scene");
-            //throw new PlatformNotSupportedException();
         }
 
         public override float GetCurrentPosition()
@@ -83,7 +82,6 @@ namespace BackgroundAudio.UnsupportedPlatform
             if (audioSource)
                 return audioSource.time;
             return 0;
-            //throw new PlatformNotSupportedException();
         }
 
         public override float GetDuration()
@@ -91,7 +89,6 @@ namespace BackgroundAudio.UnsupportedPlatform
             if (audioSource)
                 return audioSource.clip.length;
             return 0;
-            //throw new PlatformNotSupportedException();
         }
 
         public override float GetVolume()
@@ -99,7 +96,6 @@ namespace BackgroundAudio.UnsupportedPlatform
             if (audioSource)
                 return audioSource.volume;
             return 0;
-            //throw new PlatformNotSupportedException();
         }
 
         public override bool IsLooping()
@@ -107,7 +103,6 @@ namespace BackgroundAudio.UnsupportedPlatform
             if (audioSource)
                 return audioSource.loop;
             return false;
-            //  throw new PlatformNotSupportedException();
         }
 
         public override bool IsPlaying()
@@ -115,13 +110,11 @@ namespace BackgroundAudio.UnsupportedPlatform
             if (audioSource)
                 return audioSource.isPlaying;
             return false;
-            // throw new PlatformNotSupportedException();
         }
 
         public override bool IsPaused()
         {
             return isPause;
-            //throw new PlatformNotSupportedException();
         }
     }
 }

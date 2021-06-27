@@ -1,66 +1,72 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
-INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
-INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
-INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
-INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
-INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
-INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
+ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:2:1-22:12
 	package
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:3:70-98
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:2:70-98
 		INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml
 		INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:2:1-22:12
 		INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:3:99-145
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:2:99-145
 	android:versionCode
 		INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:2:1-22:12
 		INJECTED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:3:11-69
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:4:3-16:17
+ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:3:3-16:17
 	android:isGame
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:4:16-37
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:3:72-93
+	android:name
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:3:16-71
 activity#com.unity3d.player.UnityPlayerActivity
-ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:5:5-12:16
+ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
 	android:screenOrientation
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:5:111-149
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:4:111-149
 	android:launchMode
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:5:150-181
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:4:150-181
 	android:hardwareAccelerated
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:5:364-399
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:4:364-399
 	android:configChanges
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:5:182-363
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:4:182-363
 	android:theme
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:5:69-110
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:4:69-110
 	android:name
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:5:15-68
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:4:15-68
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
-ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:6:7-10:23
+ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:5:7-9:23
 action#android.intent.action.MAIN
-ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:7:9-61
+ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:6:9-61
 	android:name
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:7:17-58
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:6:17-58
 category#android.intent.category.LAUNCHER
-ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:8:9-69
+ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:7:9-69
 	android:name
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:8:19-66
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:7:19-66
 category#android.intent.category.LEANBACK_LAUNCHER
-ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:9:9-78
+ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:8:9-78
 	android:name
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:9:19-75
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:8:19-75
 meta-data#unityplayer.UnityActivity
-ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:11:7-82
+ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:10:7-82
 	android:value
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:11:59-79
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:10:59-79
 	android:name
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:11:18-58
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:10:18-58
+service#com.oneRGames.Github.BackgroundMusic.BackgroundAudioService
+ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:12:5-91
+	android:name
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:12:14-88
 meta-data#unity.splash-mode
 ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\src\main\AndroidManifest.xml:13:5-69
 	android:value

@@ -345,7 +345,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &226291495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1784,6 +1784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _toggle: {fileID: 1289613826}
   _seekBar: {fileID: 761404602}
+  a: {fileID: 0}
 --- !u!114 &1682951965
 MonoBehaviour:
   m_ObjectHideFlags: 0

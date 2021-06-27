@@ -33,8 +33,9 @@
         android:required="false" />
 
     <application
+        android:name="com.oneRGames.Github.BackgroundMusic.App"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-        android:banner="@drawable/app_banner"
+        android:banner="@drawable/ba_notification_icon"
         android:debuggable="true"
         android:icon="@mipmap/app_icon"
         android:isGame="true"
@@ -58,6 +59,8 @@
                 android:value="true" />
         </activity>
 
+        <service android:name="com.oneRGames.Github.BackgroundMusic.BackgroundAudioService" />
+
         <meta-data
             android:name="unity.splash-mode"
             android:value="0" />
@@ -66,7 +69,7 @@
             android:value="True" />
         <meta-data
             android:name="unity.build-id"
-            android:value="4d6a5228-bf19-4f43-a81e-384582a4559b" />
+            android:value="3467f7e5-d476-4b1b-9a8b-1cc58307c708" />
     </application>
 
 </manifest>

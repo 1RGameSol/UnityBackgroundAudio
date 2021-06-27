@@ -16,10 +16,11 @@ public class Sample : MonoBehaviour
     [SerializeField] private Toggle _toggle;
     [SerializeField] private Slider _seekBar;
 
+    public AudioClip a;
+
     private void Awake()
     {
         _androidBackgroundAudio = BackgroundAudioManager.NewInstance();
-        // Debug.LogError("Instance is : " + UnityMainThreadDispatcher.Instance);
         _androidBackgroundAudio.OnAudioStarted += () => UnityMainThreadDispatcher.Instance.Enqueue(() => _seekBar.maxValue = _androidBackgroundAudio.GetDuration());
         _toggle.onValueChanged.AddListener(SetLooping);
     }
@@ -27,7 +28,7 @@ public class Sample : MonoBehaviour
     public void Play()
     {
 #if UNITY_EDITOR
-        GetAudioFileURI(s => StartCoroutine(LoadFile(s)));
+        GetAudioFileURI(s => StartCoroutine(LoadAudioInEditor(s)));
 #else
         GetAudioFileURI(s => _androidBackgroundAudio.Play(s));
 #endif
@@ -35,18 +36,17 @@ public class Sample : MonoBehaviour
 
     private void GetAudioFileURI(Action<string> callback)
     {
-#if UNITY_IOS // IOS can read from StreamingAssets
-        //var filePath = Path.Combine(Application.streamingAssetsPath, "SampleAudio.mp3");
-        var filePath = Path.Combine(Application.streamingAssetsPath, "1-Circulation.flac");
+        string audioName = "SampleAudio.mp3";
+        var streamingFilePath = Path.Combine(Application.streamingAssetsPath, audioName);
+        var persistantPath = Path.Combine(Application.persistentDataPath, audioName);
+
+#if UNITY_EDITOR
+        callback?.Invoke(streamingFilePath); //persistantPath
+        return;
+#elif UNITY_IOS // IOS can read from StreamingAssets
         callback?.Invoke(filePath);
         return;
-
-#elif UNITY_ANDROID // Android can't
-        //var persistantPath = Path.Combine(Application.persistentDataPath, "SampleAudio.mp3");
-        //var filePath = Path.Combine(Application.streamingAssetsPath, "SampleAudio.mp3");
-        var persistantPath = Path.Combine(Application.persistentDataPath, "6-Sleep.flac");
-        var filePath = Path.Combine(Application.streamingAssetsPath, "6-Sleep.flac");
-
+#elif UNITY_ANDROID // Android can't get files from streaming assets since its moved to persistant path
         Debug.LogError($"PersistantPath: {persistantPath}");
         if (File.Exists(persistantPath))
         {
@@ -55,10 +55,11 @@ public class Sample : MonoBehaviour
             return;
         }
 
-        Debug.LogError($"StreamingPath: {filePath}");
-
-        var req = new UnityWebRequest(filePath, UnityWebRequest.kHttpVerbGET, new DownloadHandlerFile(persistantPath), null);
-        var asyncOp = req.SendWebRequest();
+        Debug.LogError($"StreamingPath: {streamingFilePath}");
+        if (File.Exists(streamingFilePath))
+            Debug.LogError("streaming assets path exists");
+        UnityWebRequest req = new UnityWebRequest(streamingFilePath, UnityWebRequest.kHttpVerbGET, new DownloadHandlerFile(persistantPath), null);
+        UnityWebRequestAsyncOperation asyncOp = req.SendWebRequest();
         asyncOp.completed += op =>
         {
             Debug.LogError("The callback is called");
@@ -67,19 +68,19 @@ public class Sample : MonoBehaviour
 #endif
     }
 
-    private IEnumerator LoadFile(string fullpath)
+    private IEnumerator LoadAudioInEditor(string audioPath)
     {
-        Debug.LogError("LOADING CLIP " + fullpath);
+        Debug.LogError("LOADING CLIP " + audioPath);
 
-        if (!System.IO.File.Exists(fullpath))
+        if (!System.IO.File.Exists(audioPath))
         {
-            Debug.LogError("DIDN'T EXIST: " + fullpath);
+            Debug.LogError("DIDN'T EXIST: " + audioPath);
             yield break;
         }
 
-        AudioClip temp = null;
+        AudioClip audioClipFile = null;
 
-        using (UnityWebRequest www = UnityWebRequestMultimedia.GetAudioClip("file://" + fullpath, AudioType.MPEG))
+        using (UnityWebRequest www = UnityWebRequestMultimedia.GetAudioClip("file://" + audioPath, AudioType.WAV))
         {
             yield return www.SendWebRequest();
             while (!www.isDone)
@@ -92,12 +93,11 @@ public class Sample : MonoBehaviour
             }
             else
             {
-                temp = DownloadHandlerAudioClip.GetContent(www);
+                audioClipFile = DownloadHandlerAudioClip.GetContent(www);
                 Debug.LogError("WE have th clip now playing it");
-                _androidBackgroundAudio.Play(temp);
+                _androidBackgroundAudio.Play(audioClipFile);
             }
         }
-
     }
 
     private void Update()
