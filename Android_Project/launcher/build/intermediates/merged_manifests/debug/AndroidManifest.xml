@@ -34,7 +34,7 @@
     <application
         android:name="com.oneRGames.Github.BackgroundMusic.App"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-        android:banner="@drawable/ba_notification_icon"
+        android:banner="@drawable/app_banner"
         android:debuggable="true"
         android:icon="@mipmap/app_icon"
         android:isGame="true"

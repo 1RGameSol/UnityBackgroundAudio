@@ -54,7 +54,8 @@ public class BackgroundAudioService extends Service {
     private static boolean serviceActive;
 
     @Override
-    public int onStartCommand(Intent intent, int flags, int startId) {
+    public int onStartCommand(Intent intent, int flags, int startId) 
+    {
         try {
 
             String action = intent.getAction();
@@ -92,6 +93,7 @@ public class BackgroundAudioService extends Service {
                         disposeInstance(this, instanceId);
                     });
                     mediaPlayer.prepare();
+                    mediaPlayer.setLooping(true);
                     mediaPlayer.start();
 
                     wrapper.playing = true;
@@ -99,11 +101,12 @@ public class BackgroundAudioService extends Service {
 
                     Notification notification;
                     if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) {
-                        notification = new NotificationCompat.Builder(this)
+                        notification = new Notification.Builder(this)
                                 .setContentTitle("Audio Playing")
                                 .setContentText("Tap to stop audio")
                                 .setSmallIcon(icon)
                                 .setContentIntent(pendingIntent)
+                                .setStyle(new Notification.MediaStyle())
                                 .build();
                     } else {
                         notification = new Notification.Builder(this, NOTIF_CHANNEL_ID)
@@ -111,6 +114,7 @@ public class BackgroundAudioService extends Service {
                                 .setContentText("Tap to stop audio")
                                 .setSmallIcon(icon)
                                 .setContentIntent(pendingIntent)
+                                .setStyle(new Notification.MediaStyle())
                                 .build();
                     }
 

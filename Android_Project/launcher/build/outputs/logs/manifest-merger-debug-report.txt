@@ -44,7 +44,7 @@ ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\An
 	android:anyDensity
 		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\launcher\src\main\AndroidManifest.xml:4:135-160
 application
-ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\launcher\src\main\AndroidManifest.xml:5:3-131
+ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\launcher\src\main\AndroidManifest.xml:5:3-121
 MERGED from [:unityLibrary] D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-59:19
 MERGED from [:unityLibrary] D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-59:19
 MERGED from [:androidx.core.core-1.6.0-rc01:] C:\Users\ahtes\.gradle\caches\transforms-2\files-2.1\8584b354461a7859843e3ad0a89a3395\AndroidManifest.xml:24:5-89
@@ -58,7 +58,7 @@ MERGED from [:androidx.versionedparcelable.versionedparcelable-1.1.1:] C:\Users\
 	android:icon
 		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\launcher\src\main\AndroidManifest.xml:5:49-80
 	android:banner
-		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\launcher\src\main\AndroidManifest.xml:5:81-128
+		ADDED from D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\launcher\src\main\AndroidManifest.xml:5:81-118
 	android:isGame
 		ADDED from [:unityLibrary] D:\HomeWork\Unity Projects\RemoteWork\Working\UnityBackgroundAudio\Android_Project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-30
 	android:name
